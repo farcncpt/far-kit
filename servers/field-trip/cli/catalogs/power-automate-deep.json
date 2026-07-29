@@ -1,0 +1,2046 @@
+{
+  "platform": "Microsoft Power Automate",
+  "catalogedAt": "2026-03-22T01:00:19.784Z",
+  "connectors": {
+    "SharePoint": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "Excel Online": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "OneDrive for Business": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "Compose": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "Condition": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "Apply to each": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "HTTP": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "Variable": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "Switch": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "Do until": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "See all (5)",
+        "clickable": true
+      },
+      {
+        "name": "Manually trigger a flow",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Request",
+        "clickable": false
+      },
+      {
+        "name": "By connector",
+        "clickable": false
+      },
+      {
+        "name": "AllBuilt-inStandardPremiumCustom",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      }
+    ],
+    "Scope": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an email",
+        "clickable": false
+      },
+      {
+        "name": "Explain what an action does",
+        "clickable": false
+      },
+      {
+        "name": "Add a condition",
+        "clickable": false
+      },
+      {
+        "name": "AI-generated content may be incorrect",
+        "clickable": false
+      },
+      {
+        "name": "You can now expand or collapse all action groups with one single click.",
+        "clickable": false
+      },
+      {
+        "name": "Expand or collapse all actions",
+        "clickable": false
+      },
+      {
+        "name": "0/2000ActionsSubmit",
+        "clickable": false
+      }
+    ],
+    "Terminate": [
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an emailExplain what an action doesAdd a condition",
+        "clickable": false
+      },
+      {
+        "name": "Add an action that sends an email",
+        "clickable": false
+      },
+      {
+        "name": "Explain what an action does",
+        "clickable": false
+      },
+      {
+        "name": "Add a condition",
+        "clickable": false
+      },
+      {
+        "name": "Please select a card to see the content",
+        "clickable": false
+      },
+      {
+        "name": "AI-generated content may be incorrect",
+        "clickable": false
+      },
+      {
+        "name": "You can now expand or collapse all action groups with one single click.",
+        "clickable": false
+      },
+      {
+        "name": "Expand or collapse all actions",
+        "clickable": false
+      }
+    ],
+    "Filter array": [
+      {
+        "name": "4 suggestions available for Filter array: 4 in Connectors",
+        "clickable": false
+      },
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Connectors",
+        "clickable": false
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Captisa Forms",
+        "clickable": true
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "CDK Drive Customer",
+        "clickable": true
+      },
+      {
+        "name": "Celonis",
+        "clickable": true
+      },
+      {
+        "name": "Cloudmersive Video and Media",
+        "clickable": true
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Show more results",
+        "clickable": true
+      }
+    ],
+    "Select": [
+      {
+        "name": "4 suggestions available for Select: 4 in Templates",
+        "clickable": false
+      },
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Templates",
+        "clickable": false
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Request manager approval for a selected fileInstant",
+        "clickable": false
+      },
+      {
+        "name": "Request manager approval for a selected file",
+        "clickable": true
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Instant",
+        "clickable": true
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "Request manager approval for a selected itemInstant",
+        "clickable": false
+      },
+      {
+        "name": "Request manager approval for a selected item",
+        "clickable": true
+      },
+      {
+        "name": "Request approval (everyone must approve) for a selected itemInstant",
+        "clickable": false
+      },
+      {
+        "name": "Request approval (everyone must approve) for a selected item",
+        "clickable": true
+      },
+      {
+        "name": "Complete a custom action for the selected fileInstant",
+        "clickable": false
+      },
+      {
+        "name": "Complete a custom action for the selected file",
+        "clickable": true
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Show more results",
+        "clickable": true
+      }
+    ],
+    "Parse JSON": [
+      {
+        "name": "4 suggestions available for Parse JSON: 1 in Templates, 3 in Connectors",
+        "clickable": false
+      },
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "TemplatesConvert CSV to JSON and parse JSONInstant",
+        "clickable": false
+      },
+      {
+        "name": "Templates",
+        "clickable": false
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Convert CSV to JSON and parse JSONInstant",
+        "clickable": false
+      },
+      {
+        "name": "Convert CSV to JSON and parse JSON",
+        "clickable": true
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Instant",
+        "clickable": true
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "Connectors",
+        "clickable": false
+      },
+      {
+        "name": "CandidateZip Resume/Job Parser",
+        "clickable": true
+      },
+      {
+        "name": "Docparser",
+        "clickable": true
+      },
+      {
+        "name": "Extract data from PDF files & automate your workflow with our reliable document parsing software.",
+        "clickable": true
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "MailParser",
+        "clickable": true
+      }
+    ],
+    "Outlook": [
+      {
+        "name": "4 suggestions available for Outlook: 4 in Templates",
+        "clickable": false
+      },
+      {
+        "name": "EnvironmentsBYB Society (default)",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBOSign in",
+        "clickable": false
+      },
+      {
+        "name": "Bubune OwusuBO",
+        "clickable": false
+      },
+      {
+        "name": "Environments",
+        "clickable": true
+      },
+      {
+        "name": "BYB Society (default)",
+        "clickable": true
+      },
+      {
+        "name": "Templates",
+        "clickable": false
+      },
+      {
+        "name": "Undo",
+        "clickable": false
+      },
+      {
+        "name": "Redo",
+        "clickable": false
+      },
+      {
+        "name": "Send feedback",
+        "clickable": false
+      },
+      {
+        "name": "Flow checker",
+        "clickable": false
+      },
+      {
+        "name": "SaveSave",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "TestTest",
+        "clickable": false
+      },
+      {
+        "name": "Test",
+        "clickable": true
+      },
+      {
+        "name": "CopilotCopilot",
+        "clickable": false
+      },
+      {
+        "name": "Copilot",
+        "clickable": true
+      },
+      {
+        "name": "New designerNew designer",
+        "clickable": false
+      },
+      {
+        "name": "New designer",
+        "clickable": false
+      },
+      {
+        "name": "Save",
+        "clickable": true
+      },
+      {
+        "name": "Test",
+        "clickable": false
+      },
+      {
+        "name": "CopilotClose",
+        "clickable": false
+      },
+      {
+        "name": "Save Outlook.com email attachments to your OneDriveAutomated",
+        "clickable": false
+      },
+      {
+        "name": "Save Outlook.com email attachments to your OneDrive",
+        "clickable": true
+      },
+      {
+        "name": "Add a trigger",
+        "clickable": false
+      },
+      {
+        "name": "Automated",
+        "clickable": true
+      },
+      {
+        "name": "Welcome to Copilot in Power Automate",
+        "clickable": false
+      },
+      {
+        "name": "Send a customized email when a new SharePoint list item is addedAutomated",
+        "clickable": false
+      },
+      {
+        "name": "Send a customized email when a new SharePoint list item is added",
+        "clickable": true
+      },
+      {
+        "name": "Save Office 365 email attachments to OneDrive for BusinessAutomated",
+        "clickable": false
+      },
+      {
+        "name": "Save Office 365 email attachments to OneDrive for Business",
+        "clickable": true
+      },
+      {
+        "name": "Send an email to responder when response submitted in Microsoft FormsAutomated",
+        "clickable": false
+      },
+      {
+        "name": "Send an email to responder when response submitted in Microsoft Forms",
+        "clickable": true
+      },
+      {
+        "name": "1 of 3Next",
+        "clickable": false
+      },
+      {
+        "name": "1 of 3",
+        "clickable": false
+      },
+      {
+        "name": "Show more results",
+        "clickable": true
+      }
+    ]
+  }
+}

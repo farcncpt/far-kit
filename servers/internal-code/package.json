@@ -1,0 +1,40 @@
+{
+  "name": "internal-code-mcp",
+  "version": "0.1.0",
+  "description": "Internal Code Validator MCP Server - Static analysis for code structure and dependencies",
+  "main": "dist/index-internal-code.js",
+  "type": "module",
+  "bin": {
+    "internal-code": "dist/cli.js"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "cli": "node dist/cli.js",
+    "start": "node dist/index-internal-code.js",
+    "dev": "tsc --watch",
+    "test": "npm run build && node dist/test_suite.js"
+  },
+  "keywords": [
+    "mcp",
+    "static-analysis",
+    "code-validation"
+  ],
+  "author": "",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "glob": "^10.3.10",
+    "madge": "^7.0.0",
+    "ts-morph": "^21.0.0",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/madge": "^5.0.3",
+    "@types/node": "^22.9.0",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.6.3"
+  }
+}

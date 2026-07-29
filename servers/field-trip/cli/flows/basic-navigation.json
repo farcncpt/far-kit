@@ -1,0 +1,50 @@
+{
+  "name": "Basic Navigation",
+  "description": "Navigate to the homepage and verify key structural elements are present",
+  "steps": [
+    {
+      "action": "navigate",
+      "url": "http://localhost:3000",
+      "description": "Load the homepage"
+    },
+    {
+      "action": "wait",
+      "ms": 1500,
+      "description": "Wait for hydration and client-side rendering"
+    },
+    {
+      "action": "assert",
+      "check": "elementExists",
+      "selector": "h1",
+      "description": "Page has a main heading"
+    },
+    {
+      "action": "assert",
+      "check": "elementExists",
+      "selector": "nav, [role='navigation']",
+      "description": "Page has navigation"
+    },
+    {
+      "action": "assert",
+      "check": "elementExists",
+      "selector": "main, [role='main']",
+      "description": "Page has main content area"
+    },
+    {
+      "action": "assert",
+      "check": "elementVisible",
+      "selector": "a, button",
+      "description": "At least one interactive element is visible"
+    },
+    {
+      "action": "scan",
+      "description": "Full element scan for reference"
+    },
+    {
+      "action": "assert",
+      "check": "urlMatches",
+      "pattern": "localhost:3000",
+      "description": "URL is correct"
+    }
+  ]
+}

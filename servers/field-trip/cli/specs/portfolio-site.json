@@ -1,0 +1,72 @@
+{
+  "name": "Portfolio Website",
+  "baseUrl": "http://localhost:3000",
+  "description": "A personal portfolio site with home, about, projects, and contact pages. Clean, modern design.",
+  "pages": [
+    {
+      "name": "Home",
+      "path": "/",
+      "expectedElements": [
+        { "description": "Navigation bar", "selector": "nav, header nav, [role='navigation']", "required": true },
+        { "description": "Hero section", "selector": "[class*='hero'], [class*='Hero'], section:first-of-type", "required": true },
+        { "description": "Hero heading", "selector": "h1, [class*='hero'] h1, [class*='Hero'] h1", "required": true },
+        { "description": "Hero subtitle or tagline", "selector": "h1 + p, [class*='hero'] p, [class*='Hero'] p", "required": false },
+        { "description": "CTA button", "selector": "a[class*='btn'], a[class*='cta'], button:has-text('View Work'), a:has-text('View Work'), a:has-text('Get in Touch')", "required": true },
+        { "description": "Skills or expertise section", "selector": "[class*='skill'], [class*='expertise'], [class*='tech']", "required": false },
+        { "description": "Featured projects preview", "selector": "[class*='project'], [class*='work'], [class*='portfolio']", "required": false },
+        { "description": "Footer", "selector": "footer, [class*='footer'], [role='contentinfo']", "required": true }
+      ],
+      "expectedText": ["About", "Projects", "Contact"],
+      "expectedLinks": ["/about", "/projects", "/contact"]
+    },
+    {
+      "name": "About",
+      "path": "/about",
+      "expectedElements": [
+        { "description": "Navigation bar", "selector": "nav, header nav, [role='navigation']", "required": true },
+        { "description": "Page heading", "selector": "h1", "required": true },
+        { "description": "Bio or about text", "selector": "main p, [class*='about'] p, [class*='bio'] p, section p", "required": true },
+        { "description": "Profile image", "selector": "img[class*='profile'], img[class*='avatar'], img[alt*='photo' i], img[alt*='profile' i]", "required": false },
+        { "description": "Skills list", "selector": "ul[class*='skill'], [class*='skill'], [class*='tech-stack']", "required": false },
+        { "description": "Experience or timeline", "selector": "[class*='experience'], [class*='timeline'], [class*='history']", "required": false },
+        { "description": "Footer", "selector": "footer, [class*='footer']", "required": true }
+      ],
+      "expectedText": ["About"],
+      "expectedLinks": ["/", "/projects", "/contact"]
+    },
+    {
+      "name": "Projects",
+      "path": "/projects",
+      "expectedElements": [
+        { "description": "Navigation bar", "selector": "nav, header nav, [role='navigation']", "required": true },
+        { "description": "Page heading", "selector": "h1", "required": true },
+        { "description": "Projects grid or list", "selector": "[class*='grid'], [class*='projects'], [class*='portfolio']", "required": true },
+        { "description": "Project cards", "selector": "[class*='card'], [class*='project'], article", "required": true },
+        { "description": "Project image or thumbnail", "selector": "img, [class*='card'] img, picture", "required": false },
+        { "description": "Project title", "selector": "[class*='card'] h2, [class*='card'] h3, article h2, article h3", "required": true },
+        { "description": "Project description", "selector": "[class*='card'] p, article p", "required": false },
+        { "description": "Project link or demo button", "selector": "[class*='card'] a, article a[href], a:has-text('View'), a:has-text('Demo')", "required": false },
+        { "description": "Footer", "selector": "footer, [class*='footer']", "required": true }
+      ],
+      "expectedText": ["Projects"],
+      "expectedLinks": ["/", "/about", "/contact"]
+    },
+    {
+      "name": "Contact",
+      "path": "/contact",
+      "expectedElements": [
+        { "description": "Navigation bar", "selector": "nav, header nav, [role='navigation']", "required": true },
+        { "description": "Page heading", "selector": "h1", "required": true },
+        { "description": "Contact form", "selector": "form, [class*='contact'] form, [class*='Contact'] form", "required": true },
+        { "description": "Name input", "selector": "input[name='name'], input[placeholder*='name' i], input[type='text']:first-of-type", "required": true },
+        { "description": "Email input", "selector": "input[name='email'], input[type='email'], input[placeholder*='email' i]", "required": true },
+        { "description": "Message textarea", "selector": "textarea, textarea[name='message']", "required": true },
+        { "description": "Submit button", "selector": "button[type='submit'], input[type='submit'], button:has-text('Send'), button:has-text('Submit')", "required": true },
+        { "description": "Social links", "selector": "a[href*='github'], a[href*='linkedin'], a[href*='twitter'], [class*='social']", "required": false },
+        { "description": "Footer", "selector": "footer, [class*='footer']", "required": true }
+      ],
+      "expectedText": ["Contact"],
+      "expectedLinks": ["/", "/about", "/projects"]
+    }
+  ]
+}

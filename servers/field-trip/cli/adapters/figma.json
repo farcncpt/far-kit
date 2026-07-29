@@ -1,0 +1,92 @@
+{
+  "platform": "Figma",
+  "urlPatterns": ["www.figma.com/design/*", "www.figma.com/file/*", "www.figma.com/board/*"],
+  "type": "canvas",
+  "canvasFramework": "webgl-custom",
+  "apiDiscovery": {
+    "globals": ["window.figma", "window.__figma_viewer__"],
+    "reactPaths": [],
+    "accessibilitySelectors": [
+      "[role='application']",
+      "[data-testid='canvas']",
+      ".layers-panel [role='treeitem']"
+    ]
+  },
+  "domRegions": {
+    "toolbar": ".toolbar_view, [data-testid='toolbar']",
+    "sidebar": ".left-panel, .layers_panel, [data-testid='left-panel']",
+    "canvas": "canvas[data-testid='canvas'], .gpu-view-content canvas",
+    "properties": ".right-panel, .design-panel, [data-testid='right-panel']",
+    "layersPanel": ".layers_panel, [data-testid='layer-list']",
+    "assetsPanel": ".assets-panel",
+    "topBar": ".toolbar_view--topRow"
+  },
+  "commonActions": {
+    "selectElement": {
+      "description": "Select an element on the canvas",
+      "steps": [
+        "Press V to switch to the select tool",
+        "Click on the element in the canvas",
+        "Or click the element in the layers panel"
+      ]
+    },
+    "drawRectangle": {
+      "description": "Draw a rectangle frame",
+      "steps": [
+        "Press R to activate the rectangle tool",
+        "Click and drag on the canvas to draw",
+        "Release to finish"
+      ]
+    },
+    "addText": {
+      "description": "Add a text element",
+      "steps": [
+        "Press T to activate the text tool",
+        "Click on the canvas to place the text",
+        "Type the content",
+        "Press Escape to finish editing"
+      ]
+    },
+    "createFrame": {
+      "description": "Create a frame (artboard)",
+      "steps": [
+        "Press F to activate the frame tool",
+        "Click and drag to create a custom frame",
+        "Or select a preset from the right panel"
+      ]
+    },
+    "moveElement": {
+      "description": "Move an element",
+      "steps": [
+        "Select the element",
+        "Drag to reposition",
+        "Or use the X/Y inputs in the right panel"
+      ]
+    },
+    "changeColor": {
+      "description": "Change an element's fill color",
+      "steps": [
+        "Select the element",
+        "Click the fill color swatch in the right panel",
+        "Choose a color from the picker or enter a hex value"
+      ]
+    },
+    "exportAsset": {
+      "description": "Export an element as an image",
+      "steps": [
+        "Select the element",
+        "Scroll to 'Export' section in the right panel",
+        "Add an export setting (PNG, SVG, PDF)",
+        "Click 'Export' button"
+      ]
+    },
+    "createComponent": {
+      "description": "Turn a selection into a reusable component",
+      "steps": [
+        "Select the element(s)",
+        "Press Ctrl+Alt+K (or Cmd+Option+K on Mac)",
+        "Or right-click and select 'Create Component'"
+      ]
+    }
+  }
+}

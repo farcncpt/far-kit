@@ -1,0 +1,68 @@
+{
+  "manifest_version": 3,
+  "name": "Farxplor — AI Browser Agent",
+  "version": "0.2.0",
+  "description": "AI-powered browser agent with spotlight navigation, security scanning, and extensible tool platform",
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "scripting",
+    "sidePanel",
+    "storage",
+    "tabs",
+    "offscreen",
+    "webNavigation",
+    "debugger",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/index.tsx-loader-ABAYk_fF.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "side_panel": {
+    "default_path": "src/sidepanel/index.html"
+  },
+  "action": {
+    "default_title": "Farxplor",
+    "default_popup": "src/relay/index.html",
+    "default_icon": {
+      "16": "public/icons/icon-16.svg",
+      "48": "public/icons/icon-48.svg",
+      "128": "public/icons/icon-128.svg"
+    }
+  },
+  "icons": {
+    "16": "public/icons/icon-16.svg",
+    "48": "public/icons/icon-48.svg",
+    "128": "public/icons/icon-128.svg"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "assets/useAgentConnection-BU7_DeSy.js",
+        "assets/index.tsx-CJsW8TPY.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}

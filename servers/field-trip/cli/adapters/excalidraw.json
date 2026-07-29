@@ -1,0 +1,80 @@
+{
+  "platform": "Excalidraw",
+  "urlPatterns": ["excalidraw.com/*", "*.excalidraw.com/*"],
+  "type": "canvas",
+  "canvasFramework": "excalidraw",
+  "apiDiscovery": {
+    "globals": ["window.excalidrawAPI", "window.EXCALIDRAW_ASSET_PATH"],
+    "reactPaths": ["App.props.excalidrawAPI", "App.state.elements"],
+    "accessibilitySelectors": [
+      "[data-excalidraw]",
+      "[role='application']",
+      ".excalidraw"
+    ]
+  },
+  "domRegions": {
+    "toolbar": ".App-toolbar, .excalidraw .Island",
+    "sidebar": ".sidebar, .layer-ui__library",
+    "canvas": "canvas.excalidraw__canvas, [data-excalidraw] canvas",
+    "properties": ".selected-shape-actions, .panelColumn",
+    "colorPicker": ".color-picker, .color-input-container",
+    "contextMenu": "[role='menu'], .context-menu"
+  },
+  "commonActions": {
+    "drawRectangle": {
+      "description": "Draw a rectangle on the canvas",
+      "steps": [
+        "Click the rectangle tool in the toolbar (or press R)",
+        "Click and drag on the canvas to define the rectangle bounds",
+        "Release to finish"
+      ]
+    },
+    "drawArrow": {
+      "description": "Draw an arrow between elements",
+      "steps": [
+        "Click the arrow tool in the toolbar (or press A)",
+        "Click on the start point",
+        "Click on the end point"
+      ]
+    },
+    "addText": {
+      "description": "Add text to the canvas",
+      "steps": [
+        "Click the text tool in the toolbar (or press T)",
+        "Click on the canvas where you want the text",
+        "Type the text content",
+        "Click outside to finish"
+      ]
+    },
+    "selectElement": {
+      "description": "Select an element on the canvas",
+      "steps": [
+        "Click the selection tool (or press V)",
+        "Click on the element to select it"
+      ]
+    },
+    "moveElement": {
+      "description": "Move an element to a new position",
+      "steps": [
+        "Select the element",
+        "Drag it to the new position"
+      ]
+    },
+    "deleteElement": {
+      "description": "Delete an element",
+      "steps": [
+        "Select the element",
+        "Press Delete or Backspace"
+      ]
+    },
+    "exportImage": {
+      "description": "Export the drawing as an image",
+      "steps": [
+        "Open the menu (hamburger icon or Ctrl+Shift+E)",
+        "Select 'Export image'",
+        "Choose format and options",
+        "Click 'Export'"
+      ]
+    }
+  }
+}

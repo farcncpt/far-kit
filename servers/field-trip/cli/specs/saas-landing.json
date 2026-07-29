@@ -1,0 +1,39 @@
+{
+  "name": "SaaS Landing Page",
+  "baseUrl": "http://localhost:3000",
+  "description": "A SaaS product landing page with hero, features, pricing, testimonials, and CTA sections.",
+  "pages": [
+    {
+      "name": "Landing",
+      "path": "/",
+      "expectedElements": [
+        { "description": "Navigation bar", "selector": "nav, header nav, [role='navigation']", "required": true },
+        { "description": "Logo", "selector": "nav img, nav svg, header img, [class*='logo']", "required": true },
+        { "description": "Sign-in link", "selector": "a:has-text('Sign In'), a:has-text('Log In'), a[href*='login'], a[href*='signin']", "required": false },
+        { "description": "Hero section", "selector": "[class*='hero'], [class*='Hero'], section:first-of-type", "required": true },
+        { "description": "Hero heading", "selector": "h1, [class*='hero'] h1, [class*='Hero'] h1", "required": true },
+        { "description": "Hero subtitle", "selector": "h1 + p, [class*='hero'] p, [class*='Hero'] p", "required": true },
+        { "description": "Primary CTA button", "selector": "a:has-text('Get Started'), a:has-text('Start Free'), button:has-text('Get Started'), a[class*='btn-primary'], a[class*='cta']", "required": true },
+        { "description": "Secondary CTA or demo link", "selector": "a:has-text('Demo'), a:has-text('Learn More'), a:has-text('Watch'), [class*='hero'] a:nth-of-type(2)", "required": false },
+        { "description": "Hero image or illustration", "selector": "[class*='hero'] img, [class*='Hero'] img, [class*='hero'] svg, [class*='illustration']", "required": false },
+        { "description": "Social proof or logos strip", "selector": "[class*='trust'], [class*='logos'], [class*='partners'], [class*='clients']", "required": false },
+        { "description": "Features section", "selector": "[class*='features'], [id='features'], section:has-text('Features')", "required": true },
+        { "description": "Feature cards (3+)", "selector": "[class*='feature'] [class*='card'], [class*='features'] > div > div, [class*='grid'] > div", "required": true },
+        { "description": "Feature icons", "selector": "[class*='feature'] svg, [class*='feature'] img, [class*='icon']", "required": false },
+        { "description": "Feature descriptions", "selector": "[class*='feature'] p, [class*='features'] p", "required": true },
+        { "description": "Pricing section", "selector": "[class*='pricing'], [id='pricing'], section:has-text('Pricing')", "required": true },
+        { "description": "Pricing cards", "selector": "[class*='pricing'] [class*='card'], [class*='plan'], [class*='tier']", "required": true },
+        { "description": "Price amounts", "selector": "[class*='price'], [class*='amount'], [class*='pricing'] [class*='card'] span", "required": true },
+        { "description": "Plan features lists", "selector": "[class*='pricing'] ul, [class*='plan'] ul, [class*='plan'] li", "required": true },
+        { "description": "Pricing CTA buttons", "selector": "[class*='pricing'] a, [class*='pricing'] button, [class*='plan'] a, [class*='plan'] button", "required": true },
+        { "description": "Testimonials section", "selector": "[class*='testimonial'], [class*='review'], [class*='quote'], section:has-text('Testimonials')", "required": false },
+        { "description": "FAQ section", "selector": "[class*='faq'], [id='faq'], section:has-text('FAQ'), section:has-text('Frequently')", "required": false },
+        { "description": "Bottom CTA section", "selector": "[class*='cta'], section:last-of-type [class*='btn'], section:last-of-type a:has-text('Get Started')", "required": true },
+        { "description": "Footer", "selector": "footer, [class*='footer'], [role='contentinfo']", "required": true },
+        { "description": "Footer links", "selector": "footer a, [class*='footer'] a", "required": true }
+      ],
+      "expectedText": ["Features", "Pricing", "Get Started"],
+      "expectedLinks": ["#features", "#pricing"]
+    }
+  ]
+}

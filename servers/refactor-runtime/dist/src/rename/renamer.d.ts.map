@@ -1,0 +1,1 @@
+{"version":3,"file":"renamer.d.ts","sourceRoot":"","sources":["../../../src/rename/renamer.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EACV,eAAe,EACf,YAAY,EAGb,MAAM,kBAAkB,CAAC;AAE1B,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,kBAAkB,CAAC;AAEtD;;;;GAIG;AACH,wBAAgB,aAAa,CAC3B,UAAU,EAAE,MAAM,EAClB,OAAO,EAAE,MAAM,EACf,OAAO,EAAE,MAAM,EACf,KAAK,EAAE,eAAe,EACtB,MAAM,EAAE,aAAa,GACpB,YAAY,CAkGd"}

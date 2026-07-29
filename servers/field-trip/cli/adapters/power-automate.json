@@ -1,0 +1,513 @@
+{
+  "platform": "Power Automate",
+  "urlPatterns": ["make.powerautomate.com/*", "flow.microsoft.com/*"],
+  "type": "canvas",
+  "canvasFramework": "gojs",
+  "designerVersion": "v3",
+  "uiFramework": "Fluent UI 9 / React",
+  "apiDiscovery": {
+    "globals": ["window.__STORE__", "window.flowDesigner", "window.flowRuntime"],
+    "reactPaths": ["FlowDesigner.props.flowDefinition", "FlowDesigner.props.actions"],
+    "accessibilitySelectors": [
+      "[role='application']",
+      ".flow-canvas [role='treeitem']",
+      "[role='tree']",
+      "[data-automation-id]"
+    ]
+  },
+  "selectors": {
+    "toolbar": {
+      "save": "#saveFlow",
+      "test": "#testFlow",
+      "flowChecker": "#checkFlow",
+      "copilot": "#chat",
+      "undo": "#undo",
+      "redo": "#redo",
+      "flowName": "[aria-label=\"The flow name is . Press enter to edit.\"]",
+      "back": "[aria-label=\"Go back to previous page\"]"
+    },
+    "canvas": {
+      "workflowCanvas": "[aria-label=\"Workflow canvas\"]",
+      "addTrigger": "[aria-label=\"Add a trigger\"]",
+      "insertAction": "[aria-label*=\"Insert a new action\"]",
+      "actionNodes": "[role='treeitem']",
+      "flowCanvas": ".flow-canvas, [data-gojs-diagram]"
+    },
+    "panel": {
+      "searchInput": "input[aria-label=\"Search for an action or connector\"]",
+      "panelContainer": ".ms-Panel-content",
+      "panelScrollable": ".ms-Panel-scrollableContent",
+      "panelFull": ".ms-Panel",
+      "panelOpen": ".ms-Panel.is-open",
+      "seeMoreButton": "[data-automation-id=\"flow-op-group-see-more-button\"]",
+      "closePanel": "[aria-label=\"Close panel\"]",
+      "filterTabs": "[role='tab']"
+    },
+    "domRegions": {
+      "toolbar": "header, [role='toolbar'], .command-bar",
+      "sidebar": "[role='complementary'], .side-panel, .action-panel",
+      "canvas": "[aria-label=\"Workflow canvas\"], .flow-canvas, [data-gojs-diagram]",
+      "properties": ".properties-panel, [role='form'], .action-properties",
+      "actionSearch": "input[aria-label=\"Search for an action or connector\"]",
+      "breadcrumb": ".breadcrumb, [role='navigation']"
+    }
+  },
+  "panelStructure": {
+    "searchPlaceholder": "Search for an action or connector",
+    "filterTabs": ["All", "Built-in", "Standard", "Premium", "Custom"],
+    "sections": [
+      { "name": "Favorites", "type": "header" },
+      { "name": "AI capabilities", "type": "header" },
+      { "name": "Built-in tools", "type": "header", "seeAll": "See all (9)" },
+      { "name": "By connector", "type": "header", "hasFilterTabs": true }
+    ],
+    "builtInTools": ["Control", "Data Operation", "Date Time"],
+    "defaultConnectors": [
+      "Azure DevOps",
+      "Excel Online (Business)",
+      "Microsoft Forms",
+      "Microsoft Teams",
+      "MSN Weather",
+      "Notifications",
+      "Office 365 Outlook",
+      "Office 365 Users",
+      "OneDrive for Business",
+      "OneNote (Business)",
+      "Outlook.com",
+      "Planner",
+      "Power BI",
+      "SharePoint",
+      "SQL Server",
+      "Standard approvals"
+    ]
+  },
+  "techniques": {
+    "reactInputSetter": {
+      "description": "Type into React-controlled inputs by using the native HTMLInputElement value setter",
+      "code": "const input = document.querySelector('SELECTOR');\nconst setter = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set;\nsetter.call(input, 'value');\ninput.dispatchEvent(new Event('input', { bubbles: true }));",
+      "note": "Required because React controls input state. Direct .value assignment does not trigger React updates."
+    },
+    "findPanelElement": {
+      "description": "Find action/connector items in the panel by walking DOM for own text content",
+      "code": "const panel = document.querySelector('.ms-Panel-content');\nconst els = panel.querySelectorAll('*');\nfor (const el of els) {\n  const ownText = Array.from(el.childNodes).filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join('');\n  if (ownText === 'Target Text') { el.click(); break; }\n}",
+      "note": "Own text (text nodes directly in the element, not nested children) is more reliable than textContent which includes all descendant text."
+    },
+    "verifyTriggerPlaced": {
+      "description": "Check that a trigger was successfully placed on the canvas",
+      "code": "const canvas = document.querySelector('[aria-label=\"Workflow canvas\"]');\nconst text = canvas ? canvas.textContent.replace(/\\s+/g, ' ') : '';\nconst placed = text.includes('Manually trigger a flow') && !text.startsWith('Add a trigger');"
+    }
+  },
+  "commonActions": {
+    "addTrigger": {
+      "description": "Add a trigger to start the flow",
+      "steps": [
+        "Click [aria-label=\"Add a trigger\"] on the canvas — opens the panel",
+        "Type trigger name into input[aria-label=\"Search for an action or connector\"] using React setter",
+        "Wait 2500ms for search results",
+        "Click the desired trigger from the results (walk panel for own text match)",
+        "Wait 4000ms for trigger to be placed on canvas"
+      ]
+    },
+    "addAction": {
+      "description": "Add an action step to the flow",
+      "steps": [
+        "Click [aria-label*=\"Insert a new action\"] (the + button between steps)",
+        "Type action name into search input using React setter",
+        "Wait 2500ms for search results",
+        "Click the desired action from the results",
+        "Wait 3000ms for action to be placed"
+      ]
+    },
+    "configureAction": {
+      "description": "Configure an action's parameters",
+      "steps": [
+        "Click on the action node in the canvas to expand its configuration form",
+        "Fill in required fields using React setter technique for each input",
+        "For dropdowns, click the dropdown then click the option",
+        "For dynamic content, click the lightning bolt icon then select the value",
+        "For expressions, click 'fx' then type the expression"
+      ]
+    },
+    "saveFlow": {
+      "description": "Save the current flow",
+      "steps": [
+        "Click #saveFlow",
+        "Wait 3000ms for confirmation toast"
+      ]
+    },
+    "testFlow": {
+      "description": "Test run the flow",
+      "steps": [
+        "Click #testFlow to open the test panel",
+        "Select 'Manually' radio button if prompted",
+        "Click 'Test' or 'Run flow' button",
+        "Wait for completion — green checkmarks appear on each step"
+      ]
+    },
+    "checkFlow": {
+      "description": "Validate the flow for errors",
+      "steps": [
+        "Click #checkFlow",
+        "Review error/warning list in the panel that opens",
+        "Click individual errors to navigate to the problematic action"
+      ]
+    }
+  },
+  "connectors": {
+    "SharePoint": {
+      "tier": "Standard",
+      "searchTerm": "SharePoint",
+      "triggers": [
+        "When a file is created (properties only)",
+        "For a selected item",
+        "When a file is created or modified (properties only)",
+        "When an item is created",
+        "When an item is created or modified",
+        "When a file is classified by a content understanding model",
+        "When an item or a file is modified"
+      ],
+      "actions": [
+        "Add attachment",
+        "Approve hub site join request",
+        "Cancel hub site join request",
+        "Check in file",
+        "Check out file",
+        "Copy file",
+        "Copy folder",
+        "Create an approval request for an item or file",
+        "Create file",
+        "Create item",
+        "Create new document set",
+        "Create new folder",
+        "Create sharing link for a file or folder",
+        "Discard check out",
+        "Get attachments",
+        "Get changes for an item or a file (properties only)",
+        "Get file properties",
+        "Get files (properties only)",
+        "Get items",
+        "Grant access to an item or a folder",
+        "Join hub site",
+        "List folder",
+        "Move file",
+        "Move folder",
+        "Resolve person",
+        "Send an HTTP request to SharePoint",
+        "Set content approval status",
+        "Set hub site join status to pending",
+        "Stop sharing an item or a file",
+        "Copy file (deprecated)",
+        "Delete attachment",
+        "Delete file",
+        "Delete item",
+        "Extract folder",
+        "Generate document using Microsoft Syntex (preview)",
+        "Get all lists and libraries",
+        "Get attachment content",
+        "Get file content",
+        "Get file content using path",
+        "Get file metadata",
+        "Get file metadata using path",
+        "Get folder metadata",
+        "Get folder metadata using path",
+        "Get item",
+        "Get list views",
+        "Get lists",
+        "List root folder",
+        "Update file",
+        "Update file properties",
+        "Update file properties using AI Builder model results",
+        "Update item"
+      ]
+    },
+    "Excel Online (Business)": {
+      "tier": "Standard",
+      "searchTerm": "Excel Online",
+      "triggers": [
+        "For a selected row"
+      ],
+      "actions": [
+        "Add a row into a table",
+        "Add a key column to a table",
+        "Delete a row",
+        "Get a row",
+        "Get tables",
+        "Get worksheets",
+        "List rows present in a table",
+        "Update a row",
+        "Run script",
+        "Run script from SharePoint library",
+        "Get a comment present in a workbook",
+        "Reply to a comment present in a workbook",
+        "List all comments present in a workbook"
+      ]
+    },
+    "OneDrive for Business": {
+      "tier": "Standard",
+      "searchTerm": "OneDrive for Business",
+      "triggers": [
+        "When a file is created",
+        "When a file is modified (properties only)",
+        "For a selected file"
+      ],
+      "actions": [
+        "Copy file",
+        "Copy file using path",
+        "Create file",
+        "Delete file",
+        "Get file metadata",
+        "Get file metadata using path",
+        "List files in folder",
+        "Upload file from URL"
+      ]
+    },
+    "Office 365 Outlook": {
+      "tier": "Standard",
+      "searchTerm": "Office 365 Outlook",
+      "triggers": [
+        "When a new email arrives (V3)",
+        "When an event is added, updated, or deleted (V3)",
+        "When an email is flagged (V3)"
+      ],
+      "actions": [
+        "Send an email (V2)",
+        "Draft an email message",
+        "Send a Draft message",
+        "Create contact (V2)",
+        "Assigns an Outlook category",
+        "Assign a category to multiple emails",
+        "Get Outlook category names",
+        "Send an HTTP request"
+      ]
+    },
+    "Microsoft Teams": {
+      "tier": "Standard",
+      "searchTerm": "Microsoft Teams",
+      "triggers": [
+        "When a new channel message is added",
+        "When keywords are mentioned (V3)",
+        "For a selected message"
+      ],
+      "actions": [
+        "Create a Teams meeting",
+        "Create a team",
+        "List joined teams",
+        "Get a team",
+        "Add a member to a team",
+        "List associated teams",
+        "Send a Microsoft Graph HTTP request",
+        "Respond in Teams task module",
+        "Post a choice of options as the Flow bot to a user",
+        "Post adaptive card and wait for a response"
+      ]
+    },
+    "Standard approvals": {
+      "tier": "Standard",
+      "searchTerm": "Approvals",
+      "triggers": [],
+      "actions": [
+        "Start and wait for an approval",
+        "Start and wait for an approval of text",
+        "Create an approval",
+        "Wait for an approval"
+      ]
+    },
+    "Control": {
+      "tier": "Built-in",
+      "searchTerm": "Condition",
+      "actions": [
+        "Condition",
+        "Apply to each",
+        "Switch",
+        "Do until",
+        "Scope",
+        "Terminate"
+      ]
+    },
+    "Data Operation": {
+      "tier": "Built-in",
+      "searchTerm": "Compose",
+      "actions": [
+        "Compose",
+        "Parse JSON",
+        "Filter array",
+        "Select",
+        "Join",
+        "Create CSV table",
+        "Create HTML table"
+      ]
+    },
+    "Variable": {
+      "tier": "Built-in",
+      "searchTerm": "Variable",
+      "actions": [
+        "Initialize variable",
+        "Set variable",
+        "Increment variable",
+        "Decrement variable",
+        "Append to array variable",
+        "Append to string variable"
+      ]
+    },
+    "Schedule": {
+      "tier": "Built-in",
+      "searchTerm": "Delay",
+      "triggers": [
+        "Recurrence"
+      ],
+      "actions": [
+        "Delay",
+        "Delay Until"
+      ]
+    },
+    "HTTP": {
+      "tier": "Premium",
+      "searchTerm": "HTTP",
+      "actions": [
+        "HTTP",
+        "HTTP + Swagger",
+        "HTTP Webhook",
+        "HTTP With Microsoft Entra ID",
+        "HTTP with Microsoft Entra ID (preauthorized)",
+        "Invoke an HTTP request",
+        "Get web resource"
+      ]
+    }
+  },
+  "searchResults": {
+    "_note": "Actual search results captured from the panel on 2026-03-22. These include both the target connector actions and related/third-party results that appear in search.",
+    "SharePoint": [
+      "SharePoint",
+      "Send an HTTP request to SharePoint",
+      "List folder",
+      "Create item",
+      "Copy file",
+      "Get items",
+      "Approve hub site join request",
+      "Discard check out",
+      "Get lists",
+      "Check out file",
+      "Create file",
+      "Rename file"
+    ],
+    "Excel Online": [
+      "Excel Online (Business)",
+      "Get a comment present in a workbook",
+      "Reply to a comment present in a workbook",
+      "Add a key column to a table",
+      "Get worksheets",
+      "Get tables",
+      "Add a row into a table",
+      "Run script",
+      "Run script from SharePoint library",
+      "Delete a row",
+      "Get a row",
+      "List rows present in a table",
+      "Update a row"
+    ],
+    "OneDrive for Business": [
+      "OneDrive for Business",
+      "Copy file using path",
+      "List files in folder",
+      "Get file metadata using path",
+      "Delete file",
+      "Get file metadata",
+      "Create file",
+      "Copy file",
+      "Upload file from URL"
+    ],
+    "Office 365 Outlook": [
+      "Office 365 Outlook",
+      "Get Outlook category names",
+      "Assigns an Outlook category",
+      "Send an HTTP request",
+      "Assign a category to multiple emails",
+      "Create contact (V2)",
+      "Send an email (V2)",
+      "Draft an email message",
+      "Send a Draft message"
+    ],
+    "Microsoft Teams": [
+      "Microsoft Teams",
+      "Create a Teams meeting",
+      "Respond in Teams task module",
+      "Create a team",
+      "List joined teams",
+      "Send a Microsoft Graph HTTP request",
+      "Add a member to a team",
+      "List associated teams",
+      "Get a team"
+    ],
+    "Approvals": [
+      "Standard approvals",
+      "Wait for an approval",
+      "Start and wait for an approval",
+      "Create an approval",
+      "Start and wait for an approval of text"
+    ],
+    "Compose": [
+      "Data Operation",
+      "Compose"
+    ],
+    "Condition": [
+      "Control",
+      "Condition",
+      "Do until"
+    ],
+    "Apply to each": [
+      "Control",
+      "Apply to each",
+      "Do until"
+    ],
+    "Variable": [
+      "Variable",
+      "Set variable",
+      "Decrement variable",
+      "Initialize variable",
+      "Increment variable",
+      "Append to array variable",
+      "Append to string variable"
+    ],
+    "Switch": [
+      "Control"
+    ],
+    "HTTP": [
+      "Office 365 Outlook — Send an HTTP request",
+      "Microsoft Teams — Send a Microsoft Graph HTTP request",
+      "SharePoint — Send an HTTP request to SharePoint",
+      "HTTP + Swagger",
+      "HTTP Webhook",
+      "HTTP With Microsoft Entra ID",
+      "Invoke an HTTP request",
+      "HTTP with Microsoft Entra ID (preauthorized)",
+      "Get web resource"
+    ],
+    "Parse JSON": [
+      "Data Operation",
+      "Parse JSON"
+    ],
+    "Filter array": [
+      "Data Operation",
+      "Filter array"
+    ],
+    "Select": [
+      "Data Operation"
+    ],
+    "Scope": [
+      "Control"
+    ],
+    "Terminate": [
+      "Control",
+      "Terminate"
+    ],
+    "Do until": [
+      "Control",
+      "Do until",
+      "Schedule — Delay Until"
+    ],
+    "Delay": [
+      "Schedule",
+      "Delay Until"
+    ]
+  }
+}

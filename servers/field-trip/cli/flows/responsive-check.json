@@ -1,0 +1,135 @@
+{
+  "name": "Responsive Layout Check",
+  "description": "Resize the viewport to multiple breakpoints and verify layout integrity at each size",
+  "continueOnFail": true,
+  "steps": [
+    {
+      "action": "navigate",
+      "url": "http://localhost:3000",
+      "description": "Load the homepage"
+    },
+    {
+      "action": "wait",
+      "ms": 1500,
+      "description": "Wait for initial render"
+    },
+
+    {
+      "action": "viewport",
+      "width": 1440,
+      "height": 900,
+      "description": "Desktop large (1440px)"
+    },
+    {
+      "action": "assert",
+      "check": "elementVisible",
+      "selector": "nav, [role='navigation']",
+      "description": "Navigation visible at 1440px",
+      "continueOnFail": true
+    },
+    {
+      "action": "assert",
+      "check": "elementVisible",
+      "selector": "h1",
+      "description": "Main heading visible at 1440px",
+      "continueOnFail": true
+    },
+    {
+      "action": "eval",
+      "expression": "document.body.scrollWidth <= window.innerWidth + 2",
+      "description": "No horizontal overflow at 1440px"
+    },
+
+    {
+      "action": "viewport",
+      "width": 1024,
+      "height": 768,
+      "description": "Tablet landscape (1024px)"
+    },
+    {
+      "action": "wait",
+      "ms": 500,
+      "description": "Wait for layout reflow"
+    },
+    {
+      "action": "assert",
+      "check": "elementVisible",
+      "selector": "h1",
+      "description": "Main heading visible at 1024px",
+      "continueOnFail": true
+    },
+    {
+      "action": "eval",
+      "expression": "document.body.scrollWidth <= window.innerWidth + 2",
+      "description": "No horizontal overflow at 1024px"
+    },
+
+    {
+      "action": "viewport",
+      "width": 768,
+      "height": 1024,
+      "mobile": false,
+      "description": "Tablet portrait (768px)"
+    },
+    {
+      "action": "wait",
+      "ms": 500,
+      "description": "Wait for layout reflow"
+    },
+    {
+      "action": "assert",
+      "check": "elementVisible",
+      "selector": "h1",
+      "description": "Main heading visible at 768px",
+      "continueOnFail": true
+    },
+    {
+      "action": "eval",
+      "expression": "document.body.scrollWidth <= window.innerWidth + 2",
+      "description": "No horizontal overflow at 768px"
+    },
+    {
+      "action": "scan",
+      "description": "Element scan at tablet size"
+    },
+
+    {
+      "action": "viewport",
+      "width": 375,
+      "height": 812,
+      "mobile": true,
+      "deviceScaleFactor": 3,
+      "description": "Mobile (375px, iPhone-style)"
+    },
+    {
+      "action": "wait",
+      "ms": 500,
+      "description": "Wait for layout reflow"
+    },
+    {
+      "action": "assert",
+      "check": "elementVisible",
+      "selector": "h1",
+      "description": "Main heading visible at 375px",
+      "continueOnFail": true
+    },
+    {
+      "action": "eval",
+      "expression": "document.body.scrollWidth <= window.innerWidth + 2",
+      "description": "No horizontal overflow at 375px"
+    },
+    {
+      "action": "assert",
+      "check": "elementCount",
+      "selector": "button, a, [role='button']",
+      "expected": 1,
+      "operator": "gte",
+      "description": "At least one interactive element at mobile size",
+      "continueOnFail": true
+    },
+    {
+      "action": "scan",
+      "description": "Element scan at mobile size"
+    }
+  ]
+}

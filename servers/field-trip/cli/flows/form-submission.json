@@ -1,0 +1,61 @@
+{
+  "name": "Form Submission",
+  "description": "Fill out a contact/signup form, submit it, and verify success",
+  "steps": [
+    {
+      "action": "navigate",
+      "url": "http://localhost:3000/contact",
+      "description": "Navigate to the contact page"
+    },
+    {
+      "action": "wait",
+      "ms": 1500,
+      "description": "Wait for page to render"
+    },
+    {
+      "action": "assert",
+      "check": "elementExists",
+      "selector": "form",
+      "description": "Form element exists on the page"
+    },
+    {
+      "action": "type",
+      "selector": "#name, [name='name'], input[placeholder*='name' i]",
+      "value": "Test User",
+      "description": "Fill in the name field"
+    },
+    {
+      "action": "type",
+      "selector": "#email, [name='email'], input[type='email']",
+      "value": "test@example.com",
+      "description": "Fill in the email field"
+    },
+    {
+      "action": "type",
+      "selector": "#message, [name='message'], textarea",
+      "value": "This is an automated test message from the flow runner.",
+      "description": "Fill in the message field"
+    },
+    {
+      "action": "assert",
+      "check": "elementExists",
+      "selector": "button[type='submit'], input[type='submit'], button:last-of-type",
+      "description": "Submit button exists"
+    },
+    {
+      "action": "click",
+      "selector": "button[type='submit'], input[type='submit'], button:last-of-type",
+      "description": "Click the submit button"
+    },
+    {
+      "action": "wait",
+      "ms": 3000,
+      "description": "Wait for form submission and response"
+    },
+    {
+      "action": "eval",
+      "expression": "document.body.innerText.toLowerCase().includes('thank') || document.body.innerText.toLowerCase().includes('success') || document.body.innerText.toLowerCase().includes('sent')",
+      "description": "Check for success message in page text"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "field-trip": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/field-trip/mcp-server/index.mjs"],
+      "env": {
+        "FIELD_TRIP_HOME": "${CLAUDE_PLUGIN_ROOT}/servers/field-trip"
+      }
+    },
+    "truth-seeker": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/truth-seeker/dist/index.js"]
+    },
+    "refactor-runtime": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/refactor-runtime/dist/src/mcp/server-rust.js"]
+    },
+    "internal-code": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/internal-code/dist/index-internal-code.js"]
+    }
+  }
+}

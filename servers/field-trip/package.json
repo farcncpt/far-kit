@@ -1,0 +1,13 @@
+{
+  "name": "field-trip-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Field Trip CLI tools + WebSocket relay. The mcp-server shells into these; the relay bridges CLI/agents to the Chrome extension.",
+  "scripts": {
+    "relay": "node cli/ws-relay.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "AGPL-3.0-only"
+}

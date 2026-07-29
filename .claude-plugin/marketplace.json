@@ -1,0 +1,16 @@
+{
+  "name": "far-kit",
+  "owner": {
+    "name": "farcncpt"
+  },
+  "plugins": [
+    {
+      "name": "far-kit",
+      "source": "./",
+      "description": "Field Trip browser relay + MCP, Truth-Seeker validators, refactor-runtime, internal-code analysis, plus curated skills and agents."
+    }
+  ],
+  "metadata": {
+    "description": "Personal dev toolkit marketplace: browser automation, runtime validators, refactoring engine, agent coordination, and curated skills."
+  }
+}

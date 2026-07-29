@@ -1,0 +1,82 @@
+{
+  "platform": "Google Sheets",
+  "urlPatterns": ["docs.google.com/spreadsheets/*"],
+  "type": "hybrid",
+  "canvasFramework": null,
+  "apiDiscovery": {
+    "globals": ["window.Sheets", "window._docs_flag_initialData", "window.DOCS_timing"],
+    "reactPaths": [],
+    "accessibilitySelectors": [
+      "[role='grid']",
+      "[role='row']",
+      "[role='gridcell']",
+      "[role='columnheader']",
+      "[role='rowheader']",
+      ".waffle[role='grid']"
+    ]
+  },
+  "domRegions": {
+    "toolbar": "#docs-toolbar, .docs-titlebar-buttons, [role='toolbar']",
+    "sidebar": ".script-application-sidebar, [role='complementary']",
+    "canvas": "canvas.waffle-canvas, .grid-container canvas",
+    "properties": ".formula-bar-input, #formula_bar",
+    "sheetTabs": ".sheet-tab-text, [role='tablist']",
+    "menuBar": "#docs-menubar, [role='menubar']",
+    "cellEditor": "#cell-editor, .cell-input, [role='textbox']",
+    "formulaBar": "#t-formula-bar-input, .formula-bar-input"
+  },
+  "commonActions": {
+    "selectCell": {
+      "description": "Select a specific cell by address",
+      "steps": [
+        "Click the Name Box (cell address field, top-left)",
+        "Type the cell address (e.g., 'A1', 'B5')",
+        "Press Enter"
+      ]
+    },
+    "typeInCell": {
+      "description": "Enter data into the selected cell",
+      "steps": [
+        "Select the target cell",
+        "Type the value",
+        "Press Enter to confirm (moves to next row) or Tab (moves to next column)"
+      ]
+    },
+    "enterFormula": {
+      "description": "Enter a formula into a cell",
+      "steps": [
+        "Select the target cell",
+        "Type '=' followed by the formula (e.g., '=SUM(A1:A10)')",
+        "Press Enter to confirm"
+      ]
+    },
+    "insertRow": {
+      "description": "Insert a new row",
+      "steps": [
+        "Right-click the row number to open context menu",
+        "Select 'Insert 1 row above' or 'Insert 1 row below'"
+      ]
+    },
+    "insertColumn": {
+      "description": "Insert a new column",
+      "steps": [
+        "Right-click the column header to open context menu",
+        "Select 'Insert 1 column left' or 'Insert 1 column right'"
+      ]
+    },
+    "formatCells": {
+      "description": "Format selected cells",
+      "steps": [
+        "Select the cells to format",
+        "Use the toolbar buttons (bold, italic, color, etc.)",
+        "Or open Format menu for more options"
+      ]
+    },
+    "addSheet": {
+      "description": "Add a new sheet tab",
+      "steps": [
+        "Click the '+' button at the bottom-left of the sheet tabs"
+      ]
+    }
+  }
+}

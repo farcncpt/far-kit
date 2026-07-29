@@ -1,0 +1,10 @@
+{
+  "name": "far-kit",
+  "version": "1.0.0",
+  "description": "Lean portable dev kit: Field Trip browser relay + MCP, Truth-Seeker validators, refactor-runtime, internal-code analysis, and core skills/agents for working on any machine.",
+  "author": {
+    "name": "bubune99"
+  },
+  "mcpServers": "./.mcp.json",
+  "license": "AGPL-3.0-only"
+}

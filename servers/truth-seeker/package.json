@@ -1,0 +1,47 @@
+{
+  "name": "truth-seeker-mcp",
+  "version": "0.1.0",
+  "description": "Truth Seeker MCP Server",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "truth-seeker": "dist/cli.js"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "cli": "node dist/cli.js",
+    "dev": "tsc --watch",
+    "test": "npm run build && node dist/test_suite.js"
+  },
+  "keywords": [
+    "mcp",
+    "truth-seeker"
+  ],
+  "author": "",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.940.0",
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "@types/fast-levenshtein": "^0.0.4",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "fast-levenshtein": "^3.0.0",
+    "glob": "^13.0.0",
+    "ioredis": "^5.8.2",
+    "pg": "^8.13.1",
+    "reflect-metadata": "^0.2.2",
+    "ts-morph": "^27.0.2",
+    "typeorm": "^0.3.27",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/pg": "^8.11.10",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.6.3"
+  }
+}

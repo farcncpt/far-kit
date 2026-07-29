@@ -1,0 +1,77 @@
+{
+  "name": "Blog Website",
+  "baseUrl": "http://localhost:3000",
+  "description": "A blog site with posts listing, individual post pages, categories, and about page.",
+  "pages": [
+    {
+      "name": "Blog Home",
+      "path": "/",
+      "expectedElements": [
+        { "description": "Navigation bar", "selector": "nav, header nav, [role='navigation']", "required": true },
+        { "description": "Site title or logo", "selector": "nav a[href='/'], [class*='logo'], header h1 a, [class*='brand']", "required": true },
+        { "description": "Navigation links", "selector": "nav a, header nav a", "required": true },
+        { "description": "Featured post or hero", "selector": "[class*='featured'], [class*='hero'], article:first-of-type", "required": false },
+        { "description": "Post list", "selector": "[class*='post'], article, [class*='blog'] > div, main > div", "required": true },
+        { "description": "Post titles", "selector": "article h2, article h3, [class*='post'] h2, [class*='post'] h3", "required": true },
+        { "description": "Post title links", "selector": "article a h2, article a h3, h2 a, h3 a, [class*='post'] a", "required": true },
+        { "description": "Post excerpts", "selector": "article p, [class*='post'] p, [class*='excerpt']", "required": true },
+        { "description": "Post dates or metadata", "selector": "time, [class*='date'], [class*='meta'], [datetime]", "required": false },
+        { "description": "Post author", "selector": "[class*='author'], [rel='author'], a[href*='author']", "required": false },
+        { "description": "Post tags or categories", "selector": "[class*='tag'], [class*='categor'], a[href*='categor'], a[href*='tag']", "required": false },
+        { "description": "Pagination or load more", "selector": "[class*='pagination'], [class*='pager'], a:has-text('Next'), a:has-text('Older'), button:has-text('Load More')", "required": false },
+        { "description": "Sidebar or category list", "selector": "aside, [class*='sidebar'], [class*='categor']", "required": false },
+        { "description": "Footer", "selector": "footer, [class*='footer'], [role='contentinfo']", "required": true }
+      ],
+      "expectedText": ["Blog"],
+      "expectedLinks": ["/about", "/categories"]
+    },
+    {
+      "name": "Blog Post",
+      "path": "/blog/first-post",
+      "expectedElements": [
+        { "description": "Navigation bar", "selector": "nav, header nav, [role='navigation']", "required": true },
+        { "description": "Post title (h1)", "selector": "h1, article h1, [class*='post'] h1", "required": true },
+        { "description": "Post date", "selector": "time, [class*='date'], [datetime]", "required": false },
+        { "description": "Post author", "selector": "[class*='author'], [rel='author']", "required": false },
+        { "description": "Post body content", "selector": "article, [class*='content'], [class*='post-body'], [class*='prose'], main p", "required": true },
+        { "description": "Post paragraphs", "selector": "article p, [class*='content'] p, [class*='prose'] p", "required": true },
+        { "description": "Post tags", "selector": "[class*='tag'], a[href*='tag'], a[href*='categor']", "required": false },
+        { "description": "Back to blog link", "selector": "a[href='/'], a[href='/blog'], a:has-text('Back'), a:has-text('All Posts')", "required": false },
+        { "description": "Related posts", "selector": "[class*='related'], [class*='similar'], [class*='more-posts']", "required": false },
+        { "description": "Share buttons", "selector": "[class*='share'], a[href*='twitter.com/intent'], a[href*='facebook.com/share']", "required": false },
+        { "description": "Footer", "selector": "footer, [class*='footer']", "required": true }
+      ],
+      "expectedText": [],
+      "expectedLinks": ["/"]
+    },
+    {
+      "name": "Categories",
+      "path": "/categories",
+      "expectedElements": [
+        { "description": "Navigation bar", "selector": "nav, header nav, [role='navigation']", "required": true },
+        { "description": "Page heading", "selector": "h1", "required": true },
+        { "description": "Category list", "selector": "[class*='categor'], [class*='tag'], ul, [class*='grid'] > div, [class*='list']", "required": true },
+        { "description": "Category links", "selector": "a[href*='categor'], a[href*='tag'], [class*='categor'] a, [class*='tag'] a", "required": true },
+        { "description": "Category post counts", "selector": "[class*='count'], [class*='badge'], span", "required": false },
+        { "description": "Footer", "selector": "footer, [class*='footer']", "required": true }
+      ],
+      "expectedText": ["Categories"],
+      "expectedLinks": ["/"]
+    },
+    {
+      "name": "About",
+      "path": "/about",
+      "expectedElements": [
+        { "description": "Navigation bar", "selector": "nav, header nav, [role='navigation']", "required": true },
+        { "description": "Page heading", "selector": "h1", "required": true },
+        { "description": "Author bio", "selector": "main p, [class*='about'] p, [class*='bio']", "required": true },
+        { "description": "Author image", "selector": "img[class*='avatar'], img[class*='profile'], img[class*='author'], [class*='about'] img", "required": false },
+        { "description": "Social links", "selector": "a[href*='github'], a[href*='twitter'], a[href*='linkedin'], [class*='social']", "required": false },
+        { "description": "Newsletter signup", "selector": "form, input[type='email'], [class*='newsletter'], [class*='subscribe']", "required": false },
+        { "description": "Footer", "selector": "footer, [class*='footer']", "required": true }
+      ],
+      "expectedText": ["About"],
+      "expectedLinks": ["/", "/categories"]
+    }
+  ]
+}

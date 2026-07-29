@@ -1,0 +1,66 @@
+{
+  "dom-audit.mjs": {
+    "description": "DOM vulnerability and design quality scanner — WCAG contrast, broken links, a11y, security (XSS/CSRF/secrets), design consistency, forms, images, meta/SEO. Scores 0-100.",
+    "params": [
+      "tabId",
+      "target"
+    ],
+    "examples": [
+      {
+        "action": "full scan",
+        "params": {
+          "tabId": 704449098,
+          "target": "PatternCollab"
+        },
+        "timestamp": "2026-03-24T02:54:31.324Z"
+      }
+    ],
+    "category": "security-audit",
+    "lastUsed": "2026-03-24T02:54:31.324Z",
+    "useCount": 1,
+    "successes": 1,
+    "failures": 0,
+    "avgDuration": 0,
+    "notes": [],
+    "learnedAt": "2026-03-24T02:54:31.324Z",
+    "updatedAt": "2026-03-24T02:54:47.450Z"
+  },
+  "security-audit.mjs": {
+    "description": "OWASP Top 10 security scanner — exposed secrets, auth bypass, input validation, mixed content, cookie security, DOM XSS, security headers, clickjacking. 21 secret patterns. Scores 0-100.",
+    "params": [],
+    "examples": [
+      {
+        "action": "full scan",
+        "timestamp": "2026-03-24T02:55:41.471Z"
+      }
+    ],
+    "category": "security-audit",
+    "lastUsed": "2026-03-24T02:55:41.471Z",
+    "useCount": 1,
+    "successes": 1,
+    "failures": 0,
+    "avgDuration": 0,
+    "notes": [],
+    "learnedAt": "2026-03-24T02:55:41.471Z",
+    "updatedAt": "2026-03-24T03:06:01.057Z"
+  },
+  "pentest-audit.mjs": {
+    "description": "Penetration testing audit — 11 check categories including XSS, CSRF, auth bypass, SQL injection, file upload, session security, directory traversal, info leakage, security headers. Safe and aggressive modes. Scores 0-100.",
+    "params": [],
+    "examples": [
+      {
+        "action": "safe scan",
+        "timestamp": "2026-03-24T02:55:47.675Z"
+      }
+    ],
+    "category": "security-audit",
+    "lastUsed": "2026-03-24T02:55:47.675Z",
+    "useCount": 1,
+    "successes": 1,
+    "failures": 0,
+    "avgDuration": 0,
+    "notes": [],
+    "learnedAt": "2026-03-24T02:55:47.675Z",
+    "updatedAt": "2026-03-24T03:06:10.492Z"
+  }
+}

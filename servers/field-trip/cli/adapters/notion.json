@@ -1,0 +1,82 @@
+{
+  "platform": "Notion",
+  "urlPatterns": ["www.notion.so/*", "*.notion.site/*"],
+  "type": "dom",
+  "canvasFramework": null,
+  "apiDiscovery": {
+    "globals": ["window.__NEXT_DATA__", "window.__notion_store__"],
+    "reactPaths": ["App.props.blockStore", "Block.props.block"],
+    "accessibilitySelectors": [
+      "[role='textbox']",
+      "[role='listbox']",
+      "[contenteditable='true']",
+      "[data-block-id]"
+    ]
+  },
+  "domRegions": {
+    "toolbar": ".notion-topbar, .notion-frame > .notion-topbar",
+    "sidebar": ".notion-sidebar, [role='navigation']",
+    "canvas": ".notion-page-content, .notion-scroller",
+    "properties": ".notion-page-controls, .notion-collection_view-block",
+    "breadcrumb": ".notion-topbar-breadcrumb, .breadcrumb",
+    "pageTitle": ".notion-page-block [placeholder='Untitled'], [data-root='true'] h1",
+    "blockMenu": "[role='menu'], .notion-overlay-container [role='menu']",
+    "slashMenu": ".notion-slash-menu, [role='listbox']"
+  },
+  "commonActions": {
+    "addBlock": {
+      "description": "Add a new content block",
+      "steps": [
+        "Click at the end of an existing block or on an empty line",
+        "Type '/' to open the slash command menu",
+        "Search for the block type (e.g., 'heading', 'table', 'toggle')",
+        "Click the block type or press Enter"
+      ]
+    },
+    "typeText": {
+      "description": "Type text into a block",
+      "steps": [
+        "Click on the target block to focus it",
+        "Type the text content"
+      ]
+    },
+    "createPage": {
+      "description": "Create a new page",
+      "steps": [
+        "Click the '+' button in the sidebar",
+        "Or type '/page' in an existing block and select 'Page'"
+      ]
+    },
+    "addToDatabase": {
+      "description": "Add a new item to a database",
+      "steps": [
+        "Click 'New' or the '+ New' row at the bottom of the database view",
+        "Fill in the property values",
+        "Click away or press Escape to close"
+      ]
+    },
+    "toggleSidebar": {
+      "description": "Show or hide the sidebar",
+      "steps": [
+        "Click the hamburger menu icon in the top-left",
+        "Or press Ctrl+\\ (Cmd+\\ on Mac)"
+      ]
+    },
+    "searchPage": {
+      "description": "Search for a page",
+      "steps": [
+        "Click 'Search' in the sidebar or press Ctrl+P (Cmd+P)",
+        "Type the page name",
+        "Click the result to navigate"
+      ]
+    },
+    "formatText": {
+      "description": "Format selected text",
+      "steps": [
+        "Select the text by clicking and dragging",
+        "Use the floating toolbar to apply bold, italic, link, etc.",
+        "Or use keyboard shortcuts (Ctrl+B for bold, etc.)"
+      ]
+    }
+  }
+}

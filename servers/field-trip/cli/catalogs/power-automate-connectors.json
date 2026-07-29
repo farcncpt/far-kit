@@ -1,0 +1,150 @@
+{
+  "platform": "Microsoft Power Automate",
+  "catalogedAt": "2026-03-22T00:58:59.948Z",
+  "connectors": {
+    "SharePoint": {
+      "searchTerm": "SharePoint",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Excel Online": {
+      "searchTerm": "Excel Online",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "OneDrive for Business": {
+      "searchTerm": "OneDrive for Business",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Compose": {
+      "searchTerm": "Compose",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Condition": {
+      "searchTerm": "Condition",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Apply to each": {
+      "searchTerm": "Apply to each",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "HTTP": {
+      "searchTerm": "HTTP",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Variable": {
+      "searchTerm": "Variable",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Switch": {
+      "searchTerm": "Switch",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Do until": {
+      "searchTerm": "Do until",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Scope": {
+      "searchTerm": "Scope",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Terminate": {
+      "searchTerm": "Terminate",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Filter array": {
+      "searchTerm": "Filter array",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Select": {
+      "searchTerm": "Select",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Parse JSON": {
+      "searchTerm": "Parse JSON",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    },
+    "Send an email": {
+      "searchTerm": "Send an email",
+      "resultCount": 1,
+      "items": [
+        {
+          "name": "See all (5)"
+        }
+      ]
+    }
+  }
+}

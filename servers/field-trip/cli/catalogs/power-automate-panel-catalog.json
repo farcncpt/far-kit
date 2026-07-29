@@ -1,0 +1,336 @@
+{
+  "platform": "Microsoft Power Automate",
+  "catalogedAt": "2026-03-22T01:02:58.916Z",
+  "connectors": {
+    "SharePoint": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Excel Online (Business)": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "OneDrive for Business": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      },
+      {
+        "name": "OneDrive for BusinessSee moreFor a selected fileWhen a file is modified (properties only)When a file is createdWhen a fi",
+        "hasIcon": true
+      },
+      {
+        "name": "See more",
+        "automationId": "flow-op-group-see-more-button",
+        "hasIcon": false
+      },
+      {
+        "name": "OneDriveSee moreWhen a file is deleted (properties only)When a file is created (properties only)When a file is modified ",
+        "hasIcon": true
+      },
+      {
+        "name": "OneNote (Business)See moreWhen a new section is createdWhen a new page is created in a sectionWhen a new section group i",
+        "hasIcon": true
+      },
+      {
+        "name": "Excel Online For BusinessSee moreFor a selected row",
+        "hasIcon": true
+      },
+      {
+        "name": "Dynamics 365 Business CentralSee moreWhen a business event occurs (V3)PreviewFor a selected record (V3)When a record is ",
+        "hasIcon": true
+      },
+      {
+        "name": "OpenText Extended ECMSee moreWhen a business workspace is deletedPreviewWhen a business workspace is updatedPreviewWhen ",
+        "hasIcon": true
+      },
+      {
+        "name": "Fin & Ops Apps (Dynamics 365)See moreWhen a Business Event occurs",
+        "hasIcon": true
+      },
+      {
+        "name": "Dynamics 365 Customer InsightsSee moreTriggers a flow when a business measure threshold is crossedPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "Azure Database for MySQLSee moreWhen an item is modifiedWhen an item is created",
+        "hasIcon": true
+      },
+      {
+        "name": "Huddle for US Gov & HealthcareSee morePoll a target folder for it's most recent uploadPreviewPoll a target workspace for",
+        "hasIcon": true
+      },
+      {
+        "name": "Power Form 7See moreWhen a Contact Form 7 form is submitted",
+        "hasIcon": true
+      },
+      {
+        "name": "tyntec SMS BusinessSee moreIncoming message",
+        "hasIcon": true
+      },
+      {
+        "name": "Microsoft To-Do (Business)See moreWhen a new to-do in a specific folder is created (V2)When a to-do in a specific folder",
+        "hasIcon": true
+      },
+      {
+        "name": "tyntec Viber BusinessSee moreIncoming messagePreview",
+        "hasIcon": true
+      },
+      {
+        "name": "tyntec WhatsApp BusinessSee moreIncoming message",
+        "hasIcon": true
+      },
+      {
+        "name": "Plumsail FormsSee moreForm is submitted",
+        "hasIcon": true
+      },
+      {
+        "name": "Gravity Forms ProfessionalSee moreWhen a Gravity Forms form is submittedPreviewWhen a Gravity Forms entry gets a notePre",
+        "hasIcon": true
+      },
+      {
+        "name": "TPC PortalSee moreForm Entry UpdatedPreviewTPC Form SubmissionPreviewForm Entry CreatedPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "EntersoftSee moreWhen an Entersoft Business Event occurs",
+        "hasIcon": true
+      },
+      {
+        "name": "Feathery FormsSee moreWhen a form submission is completedWhen a file is uploaded to the form or a document is signed",
+        "hasIcon": true
+      },
+      {
+        "name": "Microsoft 365 complianceSee moreWhen an item violates a DLP policyPreviewWhen an item reaches end of its retention perio",
+        "hasIcon": true
+      },
+      {
+        "name": "Gravity Forms by reenhancedSee moreWhen a form is submitted",
+        "hasIcon": true
+      },
+      {
+        "name": "Elastic FormsSee moreWhen form is filledPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "Team FormsSee moreWhen a form response is deletedWhen a new form response is submitted",
+        "hasIcon": true
+      },
+      {
+        "name": "Adobe Acrobat SignSee moreWhen a web form agreement event occursWhen an event occursWhen a group event occurs",
+        "hasIcon": true
+      }
+    ],
+    "Compose": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Condition": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Apply to each": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "HTTP": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Initialize variable": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Set variable": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      },
+      {
+        "name": "COSMO BotSee moreWhen a question-answer set is created or modifiedPreviewWhen a new question-answer set is createdPrevie",
+        "hasIcon": true
+      },
+      {
+        "name": "See more",
+        "automationId": "flow-op-group-see-more-button",
+        "hasIcon": false
+      },
+      {
+        "name": "PeakboardSee moreWhen alert is sentPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "Adobe Acrobat Sign SandboxSee moreWhen an agreement is sent to a participant",
+        "hasIcon": true
+      },
+      {
+        "name": "Adobe Acrobat SignSee moreWhen an agreement is sent to a participant",
+        "hasIcon": true
+      },
+      {
+        "name": "Africa's Talking SMSSee moreWhen you receive a Delivery Report for a sent messageWhen you receive a message in your inbo",
+        "hasIcon": true
+      },
+      {
+        "name": "Glaass ProSee moreWhen a Case is ClosedPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "ZaharaSee moreNew Invoice Set as ExportedNew Purchase Order Sent to Supplier",
+        "hasIcon": true
+      },
+      {
+        "name": "Autenti E-Signature WorkflowSee moreDocument Change (Webhook)Preview",
+        "hasIcon": true
+      },
+      {
+        "name": "SharePointSee moreWhen a file is created (properties only)For a selected itemWhen a file is created or modified (propert",
+        "hasIcon": true
+      },
+      {
+        "name": "Microsoft 365 complianceSee moreWhen an item reaches end of its retention periodPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "iManage WorkSee moreFor multiple selected workspacesFor a selected workspaceFor a selected documentFor multiple selected",
+        "hasIcon": true
+      },
+      {
+        "name": "TagoSee moreWhen a condition is matchedPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "Mobili StoteleSee moreGet ContactsPreviewGet voicemailsPreviewGet GroupsPreviewGet Voicemail BoxesPreviewGet Call Record",
+        "hasIcon": true
+      },
+      {
+        "name": "Zvanu ParvaldnieksSee moreGet voicemailsPreviewGet GroupsPreviewGet ContactsPreviewGet call HistoryPreviewGet Audio Prom",
+        "hasIcon": true
+      },
+      {
+        "name": "AletheiaSee moreWhen a new filing is filed with the SECWhen a new insider trade is reported to the SEC",
+        "hasIcon": true
+      },
+      {
+        "name": "YakChatSee moreWhen a message is sent or receivedPreviewWhen a message is sent (V2)Preview",
+        "hasIcon": true
+      },
+      {
+        "name": "Ubiqod by TaqtSee moreReceive Data From TrackersPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "Microsoft KaizalaSee moreWhen a survey is sent in a groupPreviewWhen a custom action is sent in a groupPreviewWhen there",
+        "hasIcon": true
+      },
+      {
+        "name": "SignatureAPISee moreWhen a recipient is sentWhen a recipient is releasedWhen an envelope has started",
+        "hasIcon": true
+      },
+      {
+        "name": "Gravity Forms ProfessionalSee moreWhen a Gravity Forms entry gets a notePreview",
+        "hasIcon": true
+      },
+      {
+        "name": "Text RequestSee moreTriggers when a text is sent or received",
+        "hasIcon": true
+      },
+      {
+        "name": "GratavidSee moreWhen a new event (watch, reply, etc.) takes place in GratavidPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "Showcase WorkshopSee moreTriggers when a sharing email is sentPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "WorkMobileSee moreWhen data is submitted for a formPreview",
+        "hasIcon": true
+      },
+      {
+        "name": "GetAcceptSee moreSubscribe to document events",
+        "hasIcon": true
+      }
+    ],
+    "Switch": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Do until": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Scope": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Terminate": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Filter array": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Select": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Parse JSON": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Office 365 Outlook": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Microsoft Teams": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Approval": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ],
+    "Send an HTTP request": [
+      {
+        "name": "Add a trigger",
+        "hasIcon": false
+      }
+    ]
+  }
+}

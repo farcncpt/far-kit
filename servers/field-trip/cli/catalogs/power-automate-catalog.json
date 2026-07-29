@@ -1,0 +1,509 @@
+{
+  "platform": "Microsoft Power Automate",
+  "catalogedAt": "2026-03-22T00:51:31.700Z",
+  "url": "https://make.powerautomate.com/environments/Default-683096d8-50fb-4b8f-b8eb-6e1ab12e3b93/flows/new?v3=true",
+  "categories": [
+    {
+      "label": "All",
+      "selected": false
+    },
+    {
+      "label": "Built-in",
+      "selected": false
+    },
+    {
+      "label": "Standard",
+      "selected": false
+    },
+    {
+      "label": "Premium",
+      "selected": false
+    },
+    {
+      "label": "Custom",
+      "selected": false
+    }
+  ],
+  "connectors": [
+    {
+      "name": "Power AutomateEnvironmentsBYB Society (default)",
+      "role": null,
+      "tag": "div",
+      "text": "Power AutomateEnvironmentsBYB Society (default)"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/http.a0aaded8.p",
+      "name": "BackGo back to previous pageUntitled flowUndoRedoSend feedbackFlow checkerSaveSaveTestTestCop",
+      "role": null,
+      "tag": "section",
+      "text": "BackGo back to previous pageUntitled flowUndoRedoSend feedbackFlow checker"
+    },
+    {
+      "name": "The flow name is . Press enter to edit.",
+      "role": "textbox",
+      "tag": "div",
+      "text": "Untitled flow"
+    },
+    {
+      "name": "Save",
+      "role": "menuitem",
+      "tag": "button",
+      "text": "Save"
+    },
+    {
+      "name": "Test",
+      "role": "menuitem",
+      "tag": "button",
+      "text": "Test"
+    },
+    {
+      "name": "Copilot",
+      "role": "menuitem",
+      "tag": "button",
+      "text": "Copilot"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/http.a0aaded8.p",
+      "name": "Add a triggerTriggersTriggers tell your app when to start running. Each workflow needs at least one ",
+      "role": null,
+      "tag": "div",
+      "text": "Add a triggerTriggersTriggers tell your app when to start running. Each workflow"
+    },
+    {
+      "name": "Add a trigger",
+      "role": "button",
+      "tag": "div",
+      "text": "Add a trigger"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/http.a0aaded8.p",
+      "name": "Add a triggerFavoritesBuilt-in toolsSee all (5)HTTPManually trigger a flowMicrosoft Teams WebhookReq",
+      "role": null,
+      "tag": "div",
+      "text": "Add a triggerFavoritesBuilt-in toolsSee all (5)HTTPManually trigger a flowMicros"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/http.a0aaded8.p",
+      "name": "HTTP",
+      "role": "listitem",
+      "tag": "div",
+      "text": "HTTP"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/button.c0d4736c",
+      "name": "Manually trigger a flow",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Manually trigger a flow"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/teams.dd2b07cb.",
+      "name": "Microsoft Teams Webhook",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Microsoft Teams Webhook"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/request.1cff129",
+      "name": "Request",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Request"
+    },
+    {
+      "name": "All",
+      "role": null,
+      "tag": "button",
+      "text": "All"
+    },
+    {
+      "name": "Built-in",
+      "role": null,
+      "tag": "button",
+      "text": "Built-in"
+    },
+    {
+      "name": "Standard",
+      "role": null,
+      "tag": "button",
+      "text": "Standard"
+    },
+    {
+      "name": "Premium",
+      "role": null,
+      "tag": "button",
+      "text": "Premium"
+    },
+    {
+      "name": "Custom",
+      "role": null,
+      "tag": "button",
+      "text": "Custom"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1797/1.0.1797.4609/vis",
+      "name": "Azure DevOps",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Azure DevOps"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/excelonlinebusi",
+      "name": "Excel Online For Business",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Excel Online For Business"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1774/1.0.1774.4397/microsoftfor",
+      "name": "Microsoft Forms",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Microsoft Forms"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/teams.dd2b07cb.",
+      "name": "Microsoft Teams",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Microsoft Teams"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1797/1.0.1797.4588/msn",
+      "name": "MSN Weather",
+      "role": "listitem",
+      "tag": "div",
+      "text": "MSN Weather"
+    },
+    {
+      "icon": "https://conn-afd-test-endpoint-ekb7c2aueydtd3bf.b02.azurefd.net/2025-02-09T19:17:42-lnunisha/0.0.0.1",
+      "name": "Office 365 Outlook",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Office 365 Outlook"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1778/1.0.1778.4417/onedrive/ico",
+      "name": "OneDrive",
+      "role": "listitem",
+      "tag": "div",
+      "text": "OneDrive"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/onedriveforbusi",
+      "name": "OneDrive for Business",
+      "role": "listitem",
+      "tag": "div",
+      "text": "OneDrive for Business"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1793/1.0.1793.4581/one",
+      "name": "OneNote (Business)",
+      "role": "listitem",
+      "tag": "div",
+      "text": "OneNote (Business)"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1797/1.0.1797.4609/out",
+      "name": "Outlook.com",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Outlook.com"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1797/1.0.1797.4592/pla",
+      "name": "Planner",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Planner"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/PowerBI2.4f79cb",
+      "name": "Power BI",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Power BI"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1797/1.0.1797.4609/rss",
+      "name": "RSS",
+      "role": "listitem",
+      "tag": "div",
+      "text": "RSS"
+    },
+    {
+      "icon": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/sharepointonlin",
+      "name": "SharePoint",
+      "role": "listitem",
+      "tag": "div",
+      "text": "SharePoint"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1796/1.0.1796.4625/sql",
+      "name": "SQL Server",
+      "role": "listitem",
+      "tag": "div",
+      "text": "SQL Server"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1735/1.0.1735.4103/10t",
+      "name": "10to8 Appointment Scheduling",
+      "role": "listitem",
+      "tag": "div",
+      "text": "10to8 Appointment Scheduling"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1775/1.0.1775.4400/3ee",
+      "name": "3E Events",
+      "role": "listitem",
+      "tag": "div",
+      "text": "3E Events"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1797/1.0.1797.4595/abs",
+      "name": "absentify",
+      "role": "listitem",
+      "tag": "div",
+      "text": "absentify"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1789/1.0.1789.4583/acc",
+      "name": "AcceptMission",
+      "role": "listitem",
+      "tag": "div",
+      "text": "AcceptMission"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1657/1.0.1657.3444/act",
+      "name": "Act!",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Act!"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1749/1.0.1749.4199/act",
+      "name": "ActivityInfo",
+      "role": "listitem",
+      "tag": "div",
+      "text": "ActivityInfo"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1783/1.0.1783.4453/ado",
+      "name": "Adobe Acrobat Sign",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Adobe Acrobat Sign"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1771/1.0.1771.4364/adobeacrobat",
+      "name": "Adobe Acrobat Sign Sandbox",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Adobe Acrobat Sign Sandbox"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/u/shgogna/version-mismatches-special",
+      "name": "Adobe Creative Cloud",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Adobe Creative Cloud"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1657/1.0.1657.3444/adv",
+      "name": "Advanced Scraper (Independent Publisher)",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Advanced Scraper (Independent Publisher)"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/u/shgogna/version-mismatches-special",
+      "name": "Alemba ITSM",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Alemba ITSM"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/u/shgogna/version-mismatches-special",
+      "name": "Almabase",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Almabase"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1715/1.0.1715.3906/alv",
+      "name": "ALVAO",
+      "role": "listitem",
+      "tag": "div",
+      "text": "ALVAO"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1777/1.0.1777.4410/app",
+      "name": "Appfigures",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Appfigures"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1797/1.0.1797.4601/arc",
+      "name": "ArcGIS",
+      "role": "listitem",
+      "tag": "div",
+      "text": "ArcGIS"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1797/1.0.1797.4599/arc",
+      "name": "ArcGIS Enterprise",
+      "role": "listitem",
+      "tag": "div",
+      "text": "ArcGIS Enterprise"
+    },
+    {
+      "icon": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1783/1.0.1783.4453/asa",
+      "name": "Asana",
+      "role": "listitem",
+      "tag": "div",
+      "text": "Asana"
+    }
+  ],
+  "triggers": [],
+  "builtInTools": [
+    {
+      "name": "Built-in tools",
+      "y": 244
+    },
+    {
+      "name": "See all (5)",
+      "y": 258
+    },
+    {
+      "name": "Next",
+      "y": 290
+    },
+    {
+      "name": "All",
+      "y": 441
+    },
+    {
+      "name": "Built-in",
+      "y": 441
+    },
+    {
+      "name": "Standard",
+      "y": 441
+    },
+    {
+      "name": "Premium",
+      "y": 441
+    },
+    {
+      "name": "Custom",
+      "y": 441
+    },
+    {
+      "name": "Test this flow",
+      "y": 664
+    },
+    {
+      "name": "Got it",
+      "y": 707
+    }
+  ],
+  "searchResults": {
+    "SharePoint": [
+      "Built-in tools",
+      "See all (5)",
+      "All",
+      "Built-in",
+      "Standard",
+      "Premium",
+      "Custom",
+      "Next",
+      "Test this flow",
+      "Got it"
+    ],
+    "Outlook": [
+      "Built-in tools",
+      "See all (5)",
+      "All",
+      "Built-in",
+      "Standard",
+      "Premium",
+      "Custom",
+      "Next",
+      "Test this flow",
+      "Got it"
+    ],
+    "Teams": [
+      "Built-in tools",
+      "See all (5)",
+      "All",
+      "Built-in",
+      "Standard",
+      "Premium",
+      "Custom",
+      "Next",
+      "Test this flow",
+      "Got it"
+    ],
+    "Excel": [
+      "Built-in tools",
+      "See all (5)",
+      "All",
+      "Built-in",
+      "Standard",
+      "Premium",
+      "Custom",
+      "Next",
+      "Test this flow",
+      "Got it"
+    ],
+    "OneDrive": [
+      "Built-in tools",
+      "See all (5)",
+      "All",
+      "Built-in",
+      "Standard",
+      "Premium",
+      "Custom",
+      "Next",
+      "Test this flow",
+      "Got it"
+    ],
+    "Approval": [
+      "Built-in tools",
+      "See all (5)",
+      "All",
+      "Built-in",
+      "Standard",
+      "Premium",
+      "Custom",
+      "Next",
+      "Test this flow",
+      "Got it"
+    ],
+    "HTTP": [
+      "Built-in tools",
+      "See all (5)",
+      "All",
+      "Built-in",
+      "Standard",
+      "Premium",
+      "Custom",
+      "Next",
+      "Test this flow",
+      "Got it"
+    ],
+    "Schedule": [
+      "Built-in tools",
+      "See all (5)",
+      "All",
+      "Built-in",
+      "Standard",
+      "Premium",
+      "Custom",
+      "Next",
+      "Test this flow",
+      "Got it"
+    ]
+  }
+}

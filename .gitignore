@@ -1,0 +1,9 @@
+node_modules/
+*.log
+logs/
+servers/field-trip/mcp-server/operations/
+servers/field-trip/screenshots/
+screenshots/
+.env
+.env.*
+package-lock.json
