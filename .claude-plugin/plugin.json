@@ -1,6 +1,6 @@
 {
   "name": "far-kit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Lean portable dev kit: Field Trip browser relay + MCP, Truth-Seeker validators, refactor-runtime, internal-code analysis, and core skills/agents for working on any machine.",
   "author": {
     "name": "bubune99"

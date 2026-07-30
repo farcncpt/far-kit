@@ -17,7 +17,8 @@ Lean, portable Claude Code plugin — browser automation (Field Trip relay + Chr
 | **Truth-Seeker** | `servers/truth-seeker` | Migration safety, env var audit, ORM/API contract validation, webhook simulation, SSR checks |
 | **refactor-runtime** | `servers/refactor-runtime` | Dependency-graph refactoring (rename/move/dead-code/impact) backed by a Rust engine; prebuilt Linux + Windows binaries in `bin/` |
 | **internal-code** | `servers/internal-code` | Internal code analysis and function validation |
-| **Skills** | `skills/` | 23 curated skills: field-trip family, tab-coworking, production-testing/security, refactor, human-walkthrough, and more |
+| **agent-net** | `agent-net/` + `scripts/install-agent-net.sh` | Terminal-agent mesh: hook-driven auto-registration, PID-verified liveness, push messaging between sessions, `spawn` (summon a terminal agent in any project), `rc-rescue` (enable Remote Control on a running session). Install: `bash scripts/install-agent-net.sh` |
+| **Skills** | `skills/` | 24 curated skills: agent-net, field-trip family, tab-coworking, production-testing/security, refactor, human-walkthrough, and more |
 | **Agents** | `agents/` | architect, code-reviewer, security-reviewer, typescript-reviewer, e2e-runner |
 | **Rules** | `rules/` | Reference workflow docs (testing protocol, deploy verification, git workflow, coding style) — copy into `~/.claude/rules/` or reference from CLAUDE.md |
 
